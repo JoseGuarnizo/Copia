@@ -9,9 +9,9 @@ import vista.User;
 
 public class Socket {
 
-    static java.net.Socket s;
-    static DataInputStream entra;
-    static DataOutputStream sale;
+    public static java.net.Socket s;
+    public static DataInputStream entra;
+    public static DataOutputStream sale;
     Controlador c = new Controlador();
     User us = new User();
     

@@ -1,19 +1,17 @@
 package controlador;
 
-import static controlador.Socket.sale;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 import javax.swing.JOptionPane;
 import modelo.*;
 import vista.*;
-import java.io.*;
-import java.net.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import org.apache.commons.codec.digest.DigestUtils;
+//import java.io.*;
+//import java.net.*;
+//import java.util.logging.Level;
+//import java.util.logging.Logger;
+//import org.apache.commons.codec.digest.DigestUtils;
 
 /**
  *
@@ -21,7 +19,7 @@ import org.apache.commons.codec.digest.DigestUtils;
  */
 public class Controlador implements ActionListener, Observer {
 
-    String rptaregistro;
+    public String rptaregistro;
     User obj1 = new User();
     EstudianteDAO obj2 = new EstudianteDAO();
     Socket obj4 = new Socket();

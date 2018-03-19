@@ -1,10 +1,7 @@
 
 package modelo;
 import java.sql.*;
-/**
- *
- * @author renzo
- */
+
 public class Conection {
     public Conection (){
         

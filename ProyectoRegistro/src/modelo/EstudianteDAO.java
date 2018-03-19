@@ -2,10 +2,6 @@ package modelo;
 import java.sql.*;
 import java.util.Observable;
 
-/**
- *
- * @author renzo
- */
 public class EstudianteDAO extends Observable {
     Conection conexion;
     String rptaregistro;

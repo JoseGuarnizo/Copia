@@ -1,19 +1,9 @@
 package eje;
 
 import controlador.*;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.IOException;
-import java.net.Socket;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import modelo.*;
 import vista.*;
 
-/**
- *
- * @author renzo
- */
 public class Main {
 
     public static void main(String[] args) {
