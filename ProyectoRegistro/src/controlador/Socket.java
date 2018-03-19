@@ -27,9 +27,9 @@ public class Socket {
     }
     public void retorna (){
         try {
-            String mensajenew = us.txt_nombre.getText().trim();
+            String mensajenew = us.txtnombre.getText().trim();
             sale.writeUTF(mensajenew);
-            us.txt_nombre.setText("");
+            us.txtnombre.setText("");
         } catch (IOException ex) {
             Logger.getLogger(Socket.class.getName()).log(Level.SEVERE, null, ex);
         }
